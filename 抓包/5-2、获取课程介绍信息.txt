@@ -1,0 +1,53 @@
+GET https://api.2haohr.com/training/person/signUp/plan/course/introduct?courseId=2059756896590127108&courseType=3&tabSource=1&learningPlanId=2083468809736527872 HTTP/1.1
+accesstoken: rgqzgt3s1muexfmq4xh6txxwnthr1o70
+Content-Type: application/json;charset=UTF-8
+versioncode: 200904064
+versionname: 1.5.1
+os: Android
+Single-Ended: 1
+Host: api.2haohr.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.8.1
+
+
+HTTP/1.1 200
+Server: uewaf/3.0.1
+Date: Mon, 07 Sep 2020 08:42:33 GMT
+Content-Type: application/json;charset=UTF-8
+Connection: keep-alive
+Vary: Accept-Encoding
+Vary: Accept-Encoding
+Expires: Mon, 07 Sep 2020 08:42:33 GMT
+Cache-Control: max-age=0
+Access-Control-Allow-Headers: accept,os,accesstoken,content-Type,X-Requested-With
+Access-Control-Max-Age: 2592000
+Access-Control-Allow-Methods: GET, PUT, OPTIONS, POST, DELETE
+Access-Control-Allow-Credentials: true
+Content-Length: 674
+
+{
+	"data":{
+		"canDownload":1,
+		"channelId":"2083469445391695873",
+		"channelType":4,
+		"classHour":2.0,
+		"courseChannel":1,
+		"curriculumType":"audioAndVideo",
+		"desc":"本课件从讲解一个好文档的定义，从分析受众，文档章节设定，如何图文结合，如何突出重点等方面进行介绍。",
+		"fastForward":false,
+		"id":"2083469445391695873",
+		"learnPlanCourseId":"2083469445391695873",
+		"learnStartDate":1596256544000,
+		"percentage":100,
+		"randomPunch":true,
+		"resetStudy":false,
+		"studyNum":237710,
+		"trainCourseName":"《如何写好一个文档》"
+	},
+	"errorId":"",
+	"errormsg":"",
+	"msg":"",
+	"result":true,
+	"resultcode":200
+}

@@ -1,0 +1,81 @@
+GET https://h5.2haohr.com/api/training/person/livePlan/validate?channelId=2169233104706535425 HTTP/1.1
+Host: h5.2haohr.com
+Connection: keep-alive
+Accept: application/json, text/plain, */*
+accesstoken: 2q8ps6al4lmbd0g8315mq5pc6htvdktj
+User-Agent: Mozilla/5.0 (Linux; Android 10; V1981A Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.96 Mobile Safari/537.36 AgentWeb/4.1.3  UCBrowser/11.6.4.950
+X-Requested-With: com.eebochina.train
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Referer: https://h5.2haohr.com/browser/static-training-live.html?channelId=2169233104706535425&share_id=e9d41e3fa59f4caea89d148c1c1f18f5&base=1&n=1600841918222&accesstoken=2q8ps6al4lmbd0g8315mq5pc6htvdktj
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+
+HTTP/1.1 200
+Server: openresty
+Date: Wed, 23 Sep 2020 06:18:38 GMT
+Content-Type: application/json;charset=UTF-8
+Vary: Accept-Encoding
+Vary: Accept-Encoding
+Vary: Accept-Encoding
+Expires: Wed, 23 Sep 2020 06:18:38 GMT
+Cache-Control: max-age=0
+Access-Control-Allow-Headers: accept,os,accesstoken,content-Type,X-Requested-With
+Access-Control-Max-Age: 2592000
+Access-Control-Allow-Methods: GET, PUT, OPTIONS, POST, DELETE
+Access-Control-Allow-Credentials: true
+Content-Length: 1957
+
+{
+	"data":{
+		"chatRoomNo":"25980614",
+		"checkIn":false,
+		"classHour":null,
+		"companyId":"056ca0b1391d4f45a3fbd44cbb29a3a0",
+		"coverUrl":"https://pub-cdn.2haohr.com/1ed9a22b4aba4f099e372d4645347e1c",
+		"coverUrlBase":{
+			"big":"https://pub-cdn.2haohr.com/1ed9a22b4aba4f099e372d4645347e1c?imageView2/2/w/1200",
+			"middle":"https://pub-cdn.2haohr.com/1ed9a22b4aba4f099e372d4645347e1c?imageView2/2/w/600",
+			"small":"https://pub-cdn.2haohr.com/1ed9a22b4aba4f099e372d4645347e1c?imageView2/2/w/200",
+			"src":"https://pub-cdn.2haohr.com/1ed9a22b4aba4f099e372d4645347e1c"
+		},
+		"endTime":1600587600000,
+		"groupId":"@TGS#3CVOXWWGX",
+		"isOpen":true,
+		"lecturerId":"2088019104248340481",
+		"liveArrangeId":"2169233104706535424",
+		"liveArrangeName":"如何制定计划",
+		"livePlanArrangeId":null,
+		"livePlanDate":1600531200000,
+		"livePlanId":"2169232417511751680",
+		"livePlanName":"如何制定一个计划",
+		"livePlanStatus":2,
+		"livePlanStatusEnum":{
+			"displayName":"已结束",
+			"value":2
+		},
+		"playback":true,
+		"pullUrlDto":{
+			"FLV":"https://h5-live-training.2haohr.com/25980614/f73151eadf8b4a3b93292beba2cd08b8.flv",
+			"HLS":"https://h5-live-training.2haohr.com/25980614/f73151eadf8b4a3b93292beba2cd08b8.m3u8",
+			"RTMP":"rtmp://h5-live-training.2haohr.com/25980614/f73151eadf8b4a3b93292beba2cd08b8",
+			"UDP":"webrtc://h5-live-training.2haohr.com/25980614/f73151eadf8b4a3b93292beba2cd08b8"
+		},
+		"randomPunch":true,
+		"startTime":1600581600000,
+		"streamState":2,
+		"streamStateEnum":{
+			"displayName":"禁播",
+			"value":2
+		},
+		"subsidy":true,
+		"userAccountId":"4f2d3e851577465bb77c1ff08871ad8f",
+		"userSig":"eJw1jssOgjAURP*lWw25V1ramLiSBQRdKIqGHdAWG8NTAibGfxcJLOfMI-Mhl0NoqXdtWkW2xAEqAMh6or1qR7SxFv2Sz6SujRwhUgDb5iBw9oxUZWe0mSpUb6StBEPGOXVYmnKeodYgBMdECr3smXwMB8O*WwWuJ825KvDo*WU03OMozpvQreJY6lvzSPwTu-bZbi52pvifRQdAUBQOku8PAp85FA__"
+	},
+	"errorId":"",
+	"errormsg":"",
+	"msg":"success",
+	"result":true,
+	"resultcode":200
+}

@@ -1,0 +1,39 @@
+POST https://api.2haohr.com/training/person/signUp/duration/save HTTP/1.1
+accesstoken: 34m4w8od097eyz6tv8htae35u8s6s4xz
+versioncode: 200904064
+versionname: 1.5.1
+os: Android
+Single-Ended: 1
+Content-Type: application/json; charset=UTF-8
+Content-Length: 220
+Host: api.2haohr.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.8.1
+
+{"channelId":"2083469445391695874","channelType":5,"courseChannel":"1","coursewareId":"2083432817910595586","currentDuration":407,"equipmentType":3,"onlyIdentifier":1599641436396,"percentage":14,"recordId":1599641544330}
+HTTP/1.1 200
+Server: uewaf/3.0.1
+Date: Wed, 09 Sep 2020 08:56:54 GMT
+Content-Type: application/json;charset=UTF-8
+Connection: keep-alive
+Vary: Accept-Encoding
+Vary: Accept-Encoding
+Expires: Wed, 09 Sep 2020 08:56:54 GMT
+Cache-Control: max-age=0
+Access-Control-Allow-Headers: accept,os,accesstoken,content-Type,X-Requested-With
+Access-Control-Max-Age: 2592000
+Access-Control-Allow-Methods: GET, PUT, OPTIONS, POST, DELETE
+Access-Control-Allow-Credentials: true
+Content-Length: 114
+
+{
+	"data":{
+		"data":true
+	},
+	"errorId":"",
+	"errormsg":"",
+	"msg":"success",
+	"result":true,
+	"resultcode":200
+}

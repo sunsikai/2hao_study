@@ -1,0 +1,31 @@
+GET https://api.2haohr.com/person_ucenter_auth/mobile_login/get_token/?mobile=13226617606&checkcode=4098&app_id=2014&account_app_id=1014 HTTP/1.1
+Content-Type: application/json;charset=UTF-8
+versioncode: 200904064
+versionname: 1.5.1
+os: Android
+Single-Ended: 1
+Host: api.2haohr.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.8.1
+
+
+HTTP/1.1 200 OK
+Server: uewaf/3.0.1
+Date: Mon, 07 Sep 2020 07:57:40 GMT
+Content-Type: application/json
+Connection: keep-alive
+Vary: Accept-Encoding
+elapsed_time: 0.0383739471436
+Vary: Cookie
+Allow: GET, HEAD, OPTIONS
+Set-Cookie: sessionid=rgqzgt3s1muexfmq4xh6txxwnthr1o70; expires=Mon, 21-Sep-2020 07:57:40 GMT; httponly; Max-Age=1209600; Path=/
+Expires: Mon, 07 Sep 2020 07:57:40 GMT
+Cache-Control: max-age=0
+Access-Control-Allow-Headers: accept,os,accesstoken,content-Type,X-Requested-With
+Access-Control-Max-Age: 2592000
+Access-Control-Allow-Methods: GET, PUT, OPTIONS, POST, DELETE
+Access-Control-Allow-Credentials: true
+Content-Length: 158
+
+{"msg":"","errormsg":"","resultcode":200,"data":{"is_guest":false,"accesstoken":"rgqzgt3s1muexfmq4xh6txxwnthr1o70","expire_date":1600675060036},"result":true}

@@ -1,0 +1,140 @@
+GET https://h5.2haohr.com/api/exam/question/list?paperId=2089911071686475776 HTTP/1.1
+Host: h5.2haohr.com
+Connection: keep-alive
+Accept: application/json, text/plain, */*
+accesstoken: 2q8ps6al4lmbd0g8315mq5pc6htvdktj
+User-Agent: Mozilla/5.0 (Linux; Android 10; V1981A Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.96 Mobile Safari/537.36 AgentWeb/4.1.3  UCBrowser/11.6.4.950
+X-Requested-With: com.eebochina.train
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Referer: https://h5.2haohr.com/browser/static-examine-falls.html?accesstoken=2q8ps6al4lmbd0g8315mq5pc6htvdktj&paperId=2089911071686475776&examId=2173651784223457280&examBatch=undefined&token=b687de5580614d559ebc2a153817d572&title=%E5%A6%82%E4%BD%95%E5%86%99%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3&displayMode=0&appClient=android
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+
+
+HTTP/1.1 200
+Server: openresty
+Date: Wed, 23 Sep 2020 01:19:47 GMT
+Content-Type: application/json;charset=UTF-8
+Vary: Accept-Encoding
+Vary: Accept-Encoding
+Vary: Accept-Encoding
+Expires: Wed, 23 Sep 2020 01:19:47 GMT
+Cache-Control: max-age=0
+Access-Control-Allow-Headers: accept,os,accesstoken,content-Type,X-Requested-With
+Access-Control-Max-Age: 2592000
+Access-Control-Allow-Methods: GET, PUT, OPTIONS, POST, DELETE
+Access-Control-Allow-Credentials: true
+Content-Length: 2323
+
+{
+	"data":{
+		"paperBaseDto":{
+			"allowMakeUp":true,
+			"coverKey":"",
+			"coverUrl":"https://pub-cdn.2haohr.com/34.png",
+			"coverUrlExt":null,
+			"displayMode":0,
+			"duration":"10",
+			"endTime":1601047200000,
+			"id":"2089911071686475776",
+			"isCorrect":false,
+			"isInWide":true,
+			"passLine":5,
+			"remark":" ",
+			"showAnalysis":true,
+			"showAnswer":true,
+			"showMethod":1,
+			"showTime":null,
+			"status":2,
+			"title":"如何写技术文档",
+			"totalQuestion":2,
+			"totalScore":10,
+			"welcomeRemark":"感谢您能抽出时间来参加本次答题，现在我们就马上开始吧！"
+		},
+		"questions":[
+			{
+				"analysis":"无<p><br><p>",
+				"correctAnswers":[],
+				"customConfigs":{},
+				"groupId":null,
+				"groupName":"",
+				"id":"2089911398103982080",
+				"options":[
+					{
+						"id":"2089911398103982081",
+						"imgUrl":"",
+						"isRight":true,
+						"text":"使用金字塔原理构建文档"
+					},
+					{
+						"id":"2089911398103982082",
+						"imgUrl":"",
+						"isRight":true,
+						"text":"遵循MECE法则"
+					},
+					{
+						"id":"2089911398103982083",
+						"imgUrl":"",
+						"isRight":true,
+						"text":"在文档中定义主线支线"
+					},
+					{
+						"id":"2089911398103982084",
+						"imgUrl":"",
+						"isRight":false,
+						"text":"杜绝错别字，美化字体、颜色"
+					}
+				],
+				"order":1,
+				"placeholder":"",
+				"remark":"",
+				"score":5,
+				"title":"如何让文档的结构更清晰",
+				"type":14
+			},
+			{
+				"analysis":"无<p><br><p>",
+				"correctAnswers":[],
+				"customConfigs":{},
+				"groupId":null,
+				"groupName":"",
+				"id":"2089911398103982085",
+				"options":[
+					{
+						"id":"2089911398103982086",
+						"imgUrl":"",
+						"isRight":true,
+						"text":"从结论说起"
+					},
+					{
+						"id":"2089911398103982087",
+						"imgUrl":"",
+						"isRight":true,
+						"text":"要有中心思想"
+					},
+					{
+						"id":"2089911398103982088",
+						"imgUrl":"",
+						"isRight":true,
+						"text":"要有逻辑"
+					},
+					{
+						"id":"2089911398103982089",
+						"imgUrl":"",
+						"isRight":true,
+						"text":"不遗漏、不重叠"
+					}
+				],
+				"order":2,
+				"placeholder":"",
+				"remark":"",
+				"score":5,
+				"title":"如何构建金字塔",
+				"type":14
+			}
+		]
+	},
+	"msg":"成功",
+	"resultcode":200
+}

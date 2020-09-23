@@ -1,0 +1,29 @@
+GET https://api.2haohr.com/person_ucenter_auth/mobile_login/get_checkcode/?mobile=13226617606&voice=0 HTTP/1.1
+Content-Type: application/json;charset=UTF-8
+versioncode: 200904064
+versionname: 1.5.1
+os: Android
+Single-Ended: 1
+Host: api.2haohr.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.8.1
+
+
+HTTP/1.1 200 OK
+Server: uewaf/3.0.1
+Date: Mon, 07 Sep 2020 07:57:18 GMT
+Content-Type: application/json
+Connection: keep-alive
+Vary: Accept-Encoding
+elapsed_time: 0.0173070430756
+Allow: GET, HEAD, OPTIONS
+Expires: Mon, 07 Sep 2020 07:57:18 GMT
+Cache-Control: max-age=0
+Access-Control-Allow-Headers: accept,os,accesstoken,content-Type,X-Requested-With
+Access-Control-Max-Age: 2592000
+Access-Control-Allow-Methods: GET, PUT, OPTIONS, POST, DELETE
+Access-Control-Allow-Credentials: true
+Content-Length: 130
+
+{"msg":"","errormsg":"","resultcode":200,"data":{"msg":"已给您手机发送短信验证码，请注意查收！"},"result":true}

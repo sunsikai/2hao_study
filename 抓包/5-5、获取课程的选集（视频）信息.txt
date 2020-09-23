@@ -1,0 +1,107 @@
+GET https://api.2haohr.com/training/person/course/sectionList?learningPlanId=2083468809736527872&courseId=2059756896590127108&p=1&limit=999 HTTP/1.1
+accesstoken: rgqzgt3s1muexfmq4xh6txxwnthr1o70
+Content-Type: application/json;charset=UTF-8
+versioncode: 200904064
+versionname: 1.5.1
+os: Android
+Single-Ended: 1
+Host: api.2haohr.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.8.1
+
+
+HTTP/1.1 200
+Server: uewaf/3.0.1
+Date: Mon, 07 Sep 2020 08:42:34 GMT
+Content-Type: application/json;charset=UTF-8
+Connection: keep-alive
+Vary: Accept-Encoding
+Vary: Accept-Encoding
+Expires: Mon, 07 Sep 2020 08:42:34 GMT
+Cache-Control: max-age=0
+Access-Control-Allow-Headers: accept,os,accesstoken,content-Type,X-Requested-With
+Access-Control-Max-Age: 2592000
+Access-Control-Allow-Methods: GET, PUT, OPTIONS, POST, DELETE
+Access-Control-Allow-Credentials: true
+Content-Length: 4189
+
+{
+	"data":{
+		"objects":[
+			{
+				"audioKey":"20ab133567d94d82b6543411b69aaa8d",
+				"audioUrl":"https://prv-cdn.2haohr.com/20ab133567d94d82b6543411b69aaa8d?e=1599511354&token=kHQPThzbVJmJKaDo5HupfecLjZQcm5BOxUjlENLs:Y0FsVUtPPcjAW7hDSmt8SJrhhp0=",
+				"coursewareId":"2089558798484357120",
+				"coursewareImg":"https://cdn.2haohr.com/e/static/training/randomcovera.png",
+				"coursewareImgBase":{
+					"big":"https://cdn.2haohr.com/e/static/training/randomcovera.png?imageView2/2/w/1200",
+					"middle":"https://cdn.2haohr.com/e/static/training/randomcovera.png?imageView2/2/w/600",
+					"small":"https://cdn.2haohr.com/e/static/training/randomcovera.png?imageView2/2/w/200",
+					"src":"https://cdn.2haohr.com/e/static/training/randomcovera.png"
+				},
+				"coursewareName":"爱剪辑-如何做一个计划1",
+				"coursewarePercentage":100,
+				"currentDuration":245,
+				"downloadUrl":"https://prv-cdn.2haohr.com/59632edd322c44cfaa66500070272996?attname=%E7%88%B1%E5%89%AA%E8%BE%91-%E5%A6%82%E4%BD%95%E5%81%9A%E4%B8%80%E4%B8%AA%E8%AE%A1%E5%88%921.mp4&e=1599471754&token=kHQPThzbVJmJKaDo5HupfecLjZQcm5BOxUjlENLs:TNTkeXu956JiY1QwhZj9_JrM8cs=",
+				"fileCategory":1,
+				"fileCategoryEnum":{
+					"displayName":"视频",
+					"value":1
+				},
+				"fileName":"爱剪辑-如何做一个计划1.mp4",
+				"fileType":"video",
+				"id":"2089558798484357120",
+				"m3u8Url":"https://prv-cdn.2haohr.com/5cccc79e5ff047d7b1356a95821da626.m3u8?pm3u8/0/expires/43200&e=1599511354&token=kHQPThzbVJmJKaDo5HupfecLjZQcm5BOxUjlENLs:GyqqBgM0SKOEsNswzfax3znEDUY=",
+				"originalType":"mp4",
+				"previewImages":[],
+				"qiniuKey":"59632edd322c44cfaa66500070272996",
+				"qiniuUrl":"https://prv-cdn.2haohr.com/59632edd322c44cfaa66500070272996?e=1599471754&token=kHQPThzbVJmJKaDo5HupfecLjZQcm5BOxUjlENLs:8sXM23M5QD8J3hPJM3KZdMKf2Uw=",
+				"sort":0,
+				"totalDuration":2801,
+				"videoUrl":"https://prv-cdn.2haohr.com/59632edd322c44cfaa66500070272996?e=1599471754&token=kHQPThzbVJmJKaDo5HupfecLjZQcm5BOxUjlENLs:8sXM23M5QD8J3hPJM3KZdMKf2Uw="
+			},
+			{
+				"audioKey":"68b0de7c3bb54adcb4489e90e8a8c24c",
+				"audioUrl":"https://prv-cdn.2haohr.com/68b0de7c3bb54adcb4489e90e8a8c24c?e=1599511354&token=kHQPThzbVJmJKaDo5HupfecLjZQcm5BOxUjlENLs:48SukqsSu_bqOA14F3d83hVjqCA=",
+				"coursewareId":"2089558798484357121",
+				"coursewareImg":"https://cdn.2haohr.com/e/static/training/randomcovera.png",
+				"coursewareImgBase":{
+					"big":"https://cdn.2haohr.com/e/static/training/randomcovera.png?imageView2/2/w/1200",
+					"middle":"https://cdn.2haohr.com/e/static/training/randomcovera.png?imageView2/2/w/600",
+					"small":"https://cdn.2haohr.com/e/static/training/randomcovera.png?imageView2/2/w/200",
+					"src":"https://cdn.2haohr.com/e/static/training/randomcovera.png"
+				},
+				"coursewareName":"爱剪辑-如何做一个计划2",
+				"coursewarePercentage":100,
+				"currentDuration":36,
+				"downloadUrl":"https://prv-cdn.2haohr.com/9d272213f7874cb8abe449cd0da360e9?attname=%E7%88%B1%E5%89%AA%E8%BE%91-%E5%A6%82%E4%BD%95%E5%81%9A%E4%B8%80%E4%B8%AA%E8%AE%A1%E5%88%922.mp4&e=1599471754&token=kHQPThzbVJmJKaDo5HupfecLjZQcm5BOxUjlENLs:WdTMJR6jTKeeUWmveUFLhTQA8u4=",
+				"fileCategory":1,
+				"fileCategoryEnum":{
+					"displayName":"视频",
+					"value":1
+				},
+				"fileName":"爱剪辑-如何做一个计划2.mp4",
+				"fileType":"video",
+				"id":"2089558798484357121",
+				"m3u8Url":"https://prv-cdn.2haohr.com/ded97d30d398455ab26e2f51d1676a29.m3u8?pm3u8/0/expires/43200&e=1599511354&token=kHQPThzbVJmJKaDo5HupfecLjZQcm5BOxUjlENLs:RN-S7hZIy4IH6jbb7oaYYfpJ0nA=",
+				"originalType":"mp4",
+				"previewImages":[],
+				"qiniuKey":"9d272213f7874cb8abe449cd0da360e9",
+				"qiniuUrl":"https://prv-cdn.2haohr.com/9d272213f7874cb8abe449cd0da360e9?e=1599471754&token=kHQPThzbVJmJKaDo5HupfecLjZQcm5BOxUjlENLs:JH_YHnAPTugGk-tqq6TVzvpbmmo=",
+				"sort":0,
+				"totalDuration":2801,
+				"videoUrl":"https://prv-cdn.2haohr.com/9d272213f7874cb8abe449cd0da360e9?e=1599471754&token=kHQPThzbVJmJKaDo5HupfecLjZQcm5BOxUjlENLs:JH_YHnAPTugGk-tqq6TVzvpbmmo="
+			}
+		],
+		"p":1,
+		"sincetime":"1599468154074",
+		"total_count":2,
+		"totalpage":1
+	},
+	"errorId":"",
+	"errormsg":"",
+	"msg":"",
+	"result":true,
+	"resultcode":200
+}

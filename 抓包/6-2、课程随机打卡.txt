@@ -1,0 +1,39 @@
+POST https://api.2haohr.com/training/person/randomPunch/punch HTTP/1.1
+accesstoken: 34m4w8od097eyz6tv8htae35u8s6s4xz
+versioncode: 200904064
+versionname: 1.5.1
+os: Android
+Single-Ended: 1
+Content-Type: application/json; charset=UTF-8
+Content-Length: 161
+Host: api.2haohr.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.8.1
+
+{"planCourseId":"2083469445391695874","coursewareId":"2083432817910595586","channelId":"","runchType":1,"runchNo":"2150401906495979520","recordId":1599641544330}
+HTTP/1.1 200
+Server: uewaf/3.0.1
+Date: Wed, 09 Sep 2020 08:56:56 GMT
+Content-Type: application/json;charset=UTF-8
+Connection: keep-alive
+Vary: Accept-Encoding
+Vary: Accept-Encoding
+Expires: Wed, 09 Sep 2020 08:56:56 GMT
+Cache-Control: max-age=0
+Access-Control-Allow-Headers: accept,os,accesstoken,content-Type,X-Requested-With
+Access-Control-Max-Age: 2592000
+Access-Control-Allow-Methods: GET, PUT, OPTIONS, POST, DELETE
+Access-Control-Allow-Credentials: true
+Content-Length: 131
+
+{
+	"data":{
+		"data":"2150401906495979520"
+	},
+	"errorId":"",
+	"errormsg":"",
+	"msg":"success",
+	"result":true,
+	"resultcode":200
+}

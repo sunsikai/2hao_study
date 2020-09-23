@@ -1,0 +1,39 @@
+GET https://api.2haohr.com/training/person/paper/getToken?channelId=2083469445391695873&channelType=4&paperSource=2 HTTP/1.1
+accesstoken: 2q8ps6al4lmbd0g8315mq5pc6htvdktj
+Content-Type: application/json;charset=UTF-8
+versioncode: 200904064
+versionname: 1.5.1
+os: Android
+Single-Ended: 1
+Host: api.2haohr.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.8.1
+
+
+HTTP/1.1 200
+Server: uewaf/3.0.1
+Date: Wed, 23 Sep 2020 01:19:40 GMT
+Content-Type: application/json;charset=UTF-8
+Connection: keep-alive
+Vary: Accept-Encoding
+Vary: Accept-Encoding
+Expires: Wed, 23 Sep 2020 01:19:40 GMT
+Cache-Control: max-age=0
+Access-Control-Allow-Headers: accept,os,accesstoken,content-Type,X-Requested-With
+Access-Control-Max-Age: 2592000
+Access-Control-Allow-Methods: GET, PUT, OPTIONS, POST, DELETE
+Access-Control-Allow-Credentials: true
+Content-Length: 184
+
+{
+	"data":{
+		"paperId":"2089911071686475776",
+		"tokenUuid":"b687de5580614d559ebc2a153817d572"
+	},
+	"errorId":"",
+	"errormsg":"",
+	"msg":"success",
+	"result":true,
+	"resultcode":200
+}

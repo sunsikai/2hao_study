@@ -1,0 +1,76 @@
+GET https://api.2haohr.com/training/person/learning/plan/team/lately/list?limit=1 HTTP/1.1
+accesstoken: rgqzgt3s1muexfmq4xh6txxwnthr1o70
+Content-Type: application/json;charset=UTF-8
+versioncode: 200904064
+versionname: 1.5.1
+os: Android
+Single-Ended: 1
+Host: api.2haohr.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.8.1
+
+
+HTTP/1.1 200
+Server: uewaf/3.0.1
+Date: Mon, 07 Sep 2020 07:57:40 GMT
+Content-Type: application/json;charset=UTF-8
+Connection: keep-alive
+Vary: Accept-Encoding
+Vary: Accept-Encoding
+Expires: Mon, 07 Sep 2020 07:57:40 GMT
+Cache-Control: max-age=0
+Access-Control-Allow-Headers: accept,os,accesstoken,content-Type,X-Requested-With
+Access-Control-Max-Age: 2592000
+Access-Control-Allow-Methods: GET, PUT, OPTIONS, POST, DELETE
+Access-Control-Allow-Credentials: true
+Content-Length: 1329
+
+{
+	"data":[
+		{
+			"allClassHourse":39.0,
+			"companyId":"",
+			"courseList":null,
+			"courseNum":"17",
+			"creatBy":"",
+			"desc":"为提高技术人员专业水平及能力，开展此次线上培训",
+			"endLifeCycle":null,
+			"endTime":1600963200000,
+			"id":"2083468809736527872",
+			"joinStr":"",
+			"planImgBase":{
+				"big":"https://pub-cdn.2haohr.com/cb6f4f53f2cc43fb91b5e13a7a66c1b6?imageView2/2/w/1200",
+				"middle":"https://pub-cdn.2haohr.com/cb6f4f53f2cc43fb91b5e13a7a66c1b6?imageView2/2/w/600",
+				"small":"https://pub-cdn.2haohr.com/cb6f4f53f2cc43fb91b5e13a7a66c1b6?imageView2/2/w/200",
+				"src":"https://pub-cdn.2haohr.com/cb6f4f53f2cc43fb91b5e13a7a66c1b6"
+			},
+			"planName":"计算机程序设计员（研发&交付中心）",
+			"planNo":"",
+			"planStatus":null,
+			"planStatusEnum":{
+				"displayName":"进行中",
+				"value":1
+			},
+			"planType":null,
+			"progressEnum":{
+				"displayName":"已学完",
+				"value":3
+			},
+			"qiniuUrl":"https://pub-cdn.2haohr.com/cb6f4f53f2cc43fb91b5e13a7a66c1b6",
+			"startLifeCycle":null,
+			"startTime":1595779200000,
+			"subsidy":true,
+			"trainCategoryName":"专业知识与技能培训",
+			"trainIntroduce":"",
+			"updateBy":"",
+			"updateTime":null,
+			"userId":""
+		}
+	],
+	"errorId":"",
+	"errormsg":"",
+	"msg":"success",
+	"result":true,
+	"resultcode":200
+}

@@ -1,0 +1,30 @@
+GET https://api.2haohr.com/person_ucenter/api/wechat_mini_program/miniprogram_qrcode_info/?scene=a22d7d5e099e483d92f16377441c5d27 HTTP/1.1
+accesstoken: 34m4w8od097eyz6tv8htae35u8s6s4xz
+Content-Type: application/json;charset=UTF-8
+versioncode: 200904064
+versionname: 1.5.1
+os: Android
+Single-Ended: 1
+Host: api.2haohr.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.8.1
+
+
+HTTP/1.1 200 OK
+Server: uewaf/3.0.1
+Date: Tue, 15 Sep 2020 06:33:48 GMT
+Content-Type: application/json
+Connection: keep-alive
+Vary: Accept-Encoding
+elapsed_time: 0.00109505653381
+Allow: GET, HEAD, OPTIONS
+Expires: Tue, 15 Sep 2020 06:33:48 GMT
+Cache-Control: max-age=0
+Access-Control-Allow-Headers: accept,os,accesstoken,content-Type,X-Requested-With
+Access-Control-Max-Age: 2592000
+Access-Control-Allow-Methods: GET, PUT, OPTIONS, POST, DELETE
+Access-Control-Allow-Credentials: true
+Content-Length: 555
+
+{"msg":"","errormsg":"","resultcode":200,"data":{"min_app_url":"https://pub-cdn.2haohr.com/264c56e31d5e4c34b014f88e894301d9","share_id":"e9d41e3fa59f4caea89d148c1c1f18f5","target":"https%3A%2F%2Fh5.2haohr.com%2Fbrowser%2Fstatic-training-live.html%3FchannelId%3D2087975536100089857%26share_id%3De9d41e3fa59f4caea89d148c1c1f18f5","app_target":"https%3A%2F%2Fh5.2haohr.com%2Fbrowser%2Fstatic-training-live.html%3FchannelId%3D2087975536100089857%26share_id%3De9d41e3fa59f4caea89d148c1c1f18f5","width":"280px","page":"pages/common-page/loading"},"result":true}
